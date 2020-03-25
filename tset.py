@@ -42,6 +42,6 @@ driver.switch_to.default_content()
 sleep(2)
 #点击确定门诊号按钮
 driver.find_element_by_xpath('//*[@id="layui-layer2"]/div[3]/a[1]').click()
-
+#qqq
 sleep(4)
 driver.quit()
